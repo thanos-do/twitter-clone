@@ -13,6 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
+                    <h1>test</h1>
                 </div>
             </div>
         </div>
