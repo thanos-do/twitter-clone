@@ -1,5 +1,5 @@
 # Τwitter clone website
 
-Attempt fo a twitter clone page
+Trying to make a simple clone for our lovely social platform Twitter
 
-README TBD
+Static Website with basic HTML,CSS,JS markup!
