@@ -1,7 +1,58 @@
 /* -------------------------> GLOBAL <------------------------- */
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
 
 /* -------------------------> HEADER <------------------------- */
 
+/* -------------------------> LEFT SIDEBAR <------------------------- */
+.logo{
+    padding: 1rem;
+}
+.left-sidebar-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    width: 100%;
+}
+.left-sidebar-content a{
+    text-decoration: none;
+    color: black;
+}
+.left-sidebar-content div{
+    padding: 1rem;
+    width: 100%;
+}
+.left-sidebar-content div:hover{
+    background-color:rgba(15, 20 , 25 , 0.1);
+    border-radius: 30px;
+    padding: 1rem;  
+    cursor:pointer;  
+}
+.fas.fa-home,
+.fas.fa-hashtag,
+.far.fa-bell,
+.far.fa-envelope,
+.far.fa-bookmark,
+.far.fa-list-alt,
+.far.fa-user,
+.far.fa-caret-square-down
+{
+    width: 25%;
+}
+.btn.btn-primary{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    background-color: rgb(29, 155, 240);
+}
 /* -------------------------> MAIN <------------------------- */
-
+/* main img{
+    margin-bottom: 5rem;
+} */
+.main-feed h1{
+    margin-bottom: 5rem;
+}
 /* -------------------------> FOOTER <------------------------- */
