@@ -1,20 +1,13 @@
 /* -------------------------> GLOBAL <------------------------- */
 body{
     background-color:rgb(255, 255, 255);
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
 }
 /* -------------------------> HEADER <------------------------- */
 
 /* -------------------------> LEFT SIDEBAR <------------------------- */
-.fas.fa-home,
-.fas.fa-hashtag,
-.far.fa-bell,
-.far.fa-envelope,
-.far.fa-bookmark,
-.far.fa-list-alt,
-.far.fa-user,
-.far.fa-caret-square-down
-{
+.fas,.far{
     width: 25%;
 }
 .logo{
@@ -37,7 +30,6 @@ body{
 .left-sidebar-content div:hover{
     background-color:rgba(15, 20 , 25 , 0.1);
     border-radius: 30px;
-    padding: 1rem;  
     cursor:pointer;  
 }
 .btn.btn-primary{
@@ -46,6 +38,38 @@ body{
     border-radius: 30px;
     width: 100%;
     background-color: rgb(29, 155, 240);
+}
+
+/* -------------------------> LEFT SIDEBAR <------------------------- */
+.search{
+    max-width: 85%;
+    margin-top: 1.5rem;
+}
+.search input{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.search .btn{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px ;
+}
+.trends{
+    background-color: rgb(245, 248, 250);
+    max-width: 85%;
+    border-radius: 20px;
+    padding: 25px;
+}
+.trends .heading{
+    margin-bottom: 2rem;
+}
+.trends .content{
+    margin-bottom: 1.5rem;
+}
+.trends .content p{
+    margin: 0;
+}
+.trends .content h4{
+    margin:0;
 }
 /* -------------------------> MAIN <------------------------- */
 .main-feed h1{
