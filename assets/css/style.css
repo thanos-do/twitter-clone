@@ -3,10 +3,20 @@ body{
     background-color:rgb(255, 255, 255);
     font-family: 'PT Sans Narrow', sans-serif;
 }
-
 /* -------------------------> HEADER <------------------------- */
 
 /* -------------------------> LEFT SIDEBAR <------------------------- */
+.fas.fa-home,
+.fas.fa-hashtag,
+.far.fa-bell,
+.far.fa-envelope,
+.far.fa-bookmark,
+.far.fa-list-alt,
+.far.fa-user,
+.far.fa-caret-square-down
+{
+    width: 25%;
+}
 .logo{
     padding: 1rem;
 }
@@ -30,17 +40,6 @@ body{
     padding: 1rem;  
     cursor:pointer;  
 }
-.fas.fa-home,
-.fas.fa-hashtag,
-.far.fa-bell,
-.far.fa-envelope,
-.far.fa-bookmark,
-.far.fa-list-alt,
-.far.fa-user,
-.far.fa-caret-square-down
-{
-    width: 25%;
-}
 .btn.btn-primary{
     margin-top: 1.5rem;
     font-size: 2rem;
@@ -49,9 +48,6 @@ body{
     background-color: rgb(29, 155, 240);
 }
 /* -------------------------> MAIN <------------------------- */
-/* main img{
-    margin-bottom: 5rem;
-} */
 .main-feed h1{
     margin-bottom: 5rem;
 }
