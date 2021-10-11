@@ -14,10 +14,7 @@ body{
     padding: 1rem;
 }
 .left-sidebar-content{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.6rem;
-    width: 100%;
+    font-size: 1.3rem;
 }
 .left-sidebar-content a{
     text-decoration: none;
@@ -25,33 +22,41 @@ body{
 }
 .left-sidebar-content div{
     padding: 1rem;
-    width: 100%;
+    max-width: 75%;
+    border-radius: 30px;
+    cursor:pointer; 
 }
 .left-sidebar-content div:hover{
     background-color:rgba(15, 20 , 25 , 0.1);
-    border-radius: 30px;
-    cursor:pointer;  
+    transition: all 0.2s ease;
 }
 .btn.btn-primary{
-    margin-top: 1.5rem;
-    font-size: 2rem;
+    margin: 1.5rem ;
+    font-size: 1.5rem;
     border-radius: 30px;
-    width: 100%;
+    width: 70%;
     background-color: rgb(29, 155, 240);
 }
 
 /* -------------------------> LEFT SIDEBAR <------------------------- */
 .search{
     max-width: 85%;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
-.search input{
+.search .form-control{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    background-color: #E1E8ED;
+    border: none;
+    box-shadow: none;
 }
 .search .btn{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px ;
+    background-color: #E1E8ED;
+    border: none;
+    padding: 10px;
+    box-shadow: none;
 }
 .trends{
     background-color: rgb(245, 248, 250);
@@ -62,6 +67,12 @@ body{
 .trends .heading{
     margin-bottom: 2rem;
 }
+.trends .heading h5{
+    font-weight: 900;
+}
+.trends .content .hashtag{
+    font-weight: 800;
+}
 .trends .content{
     margin-bottom: 1.5rem;
 }
@@ -71,8 +82,70 @@ body{
 .trends .content h4{
     margin:0;
 }
+.follow{
+    background-color: rgb(245, 248, 250);
+    max-width: 85%;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 1rem;
+}
+.follow .content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.follow .heading h5{
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.follow .info{
+   width: 100%;
+   max-height: 50px;
+}
+.btn.btn-primary.follow-btn{
+    max-width: 25%;
+    padding: 5px;
+    margin: 0;
+    font-size: 0.8rem;
+    background-color: black;
+    color: #fff;
+    border: 1px solid grey;
+}
 /* -------------------------> MAIN <------------------------- */
-.main-feed h1{
-    margin-bottom: 5rem;
+.main-feed{
+    border-left: 1px solid #E1E8ED;
+    border-right: 1px solid #E1E8ED;
+}
+.main-feed h4{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+.main-feed .content{
+    margin-top: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #E1E8ED;
+    border-top: 1px solid #E1E8ED;
+}
+.main-feed .cta-icons .form-control{
+    border: 0;
+    margin-bottom: 1rem;
+    box-shadow: none;
+}
+.main-feed .cta-icons a{
+    padding: 8px;
+    border-radius: 50%;
+}
+.main-feed .cta-icons a:hover{
+    background-color: rgb(29, 155, 240, 0.1);
+    transition: all 0.2s ease;
+}
+.main-feed .cta-icons .btn{
+    width: 15%;
+    font-size: 1rem;
+    margin: 0;
+    margin-left: 50%;
 }
 /* -------------------------> FOOTER <------------------------- */

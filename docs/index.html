@@ -11,7 +11,7 @@
     </header>
     <main>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-1"></div>
                 <!-- Left Sidebar -->
                 <div class="col-2 left-sidebar-wrapper">
@@ -55,8 +55,24 @@
                     </div>
                 </div>
                 <!-- Feed Context -->
-                    <div class="col-6 main-feed">
-                        <h3 style="font-weight: bold; margin-top: 1.5rem;">Home</h3>
+                    <div class="col-4 main-feed">
+                        <div class='heading'>
+                            <h4>Home</h4>
+                        </div>
+                        <div class='row content'> 
+                            <div class="col-1 ">
+                               <img src="../assets/images/user.png" width="50px;" alt="">
+                            </div>
+                            <div class="col-11 cta-icons">
+                                <textarea class="form-control" aria-label="With textarea" placeholder="What's happening?"></textarea>
+                                <a href=""><img src="../assets/images/gallery.png" alt=""></a>
+                                <a href=""><img src="../assets/images/gif.png" alt=""></a>
+                                <a href=""><img src="../assets/images/poll.png" alt=""></a>
+                                <a href=""><img src="../assets/images/emoji.png" alt=""></a>
+                                <a href=""><img src="../assets/images/schedule.png" alt=""></a>
+                                <button type="button" class="btn btn-primary btn-sm">Tweet</button>
+                            </div>
+                        </div>
                     </div>
                 <!-- Right Sidebar -->
                 <div class="col-3 right-sidebar">
@@ -64,34 +80,57 @@
                         <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fas fa-search"></i></button>
                         <input type="text" class="form-control" placeholder="Search Twitter" aria-label="Example text with button addon" aria-describedby="button-addon1">
                     </div>
-                    <div class="trends">
+                    <!-- Trends Section -->
+                    <div class="col-12 trends">
                         <div class="heading">
-                            <h2>Trends for you</h2>
+                            <h5>Trends for you</h5>
                         </div>
                         <div class="content">
-                            <p>Lorem Ipsum-test</p>
-                            <h4>lorem Ipsum</h4>
+                            <p>Trending in Greece</p>
+                            <p class="hashtag">#με_τον_ταβερνιαρη</p>
                             <p>10,000 Tweets</p>
                         </div>
                         <div class="content">
-                            <p>Lorem Ipsum-test</p>
-                            <h4>lorem Ipsum</h4>
+                            <p>Trending in Greece</p>
+                            <p class="hashtag">#κεραμεως_παραιτησου</p>
                             <p>10,000 Tweets</p>
                         </div>
                         <div class="content">
-                            <p>Lorem Ipsum-test</p>
-                            <h4>lorem Ipsum</h4>
+                            <p>Basketball - Trending</p>
+                            <p class="hashtag">Westbrook</p>
                             <p>10,000 Tweets</p>
                         </div>
                         <div class="content">
-                            <p>Lorem Ipsum-test</p>
-                            <h4>lorem Ipsum</h4>
+                            <p>American football - Trending</p>
+                            <p class="hashtag">Patrick Mahomes</p>
                             <p>10,000 Tweets</p>
                         </div>
                         <div class="content">
-                            <p>Lorem Ipsum-test</p>
-                            <h4>lorem Ipsum</h4>
+                            <p>Nations League - Trending</p>
+                            <p class="hashtag">Mbappe</p>
                             <p>10,000 Tweets</p>
+                        </div>
+                    </div>
+                    <!-- Follow Section -->
+                    <div class="col-12 follow">
+                        <div class="heading">
+                            <h5>Who to Follow</h5>
+                        </div>
+                        <div class="content mb-3">
+                            <img src="../assets/images/user.png" width="50px" alt="">
+                            <div class="info">
+                                <p style="margin:0; font-weight:bold;">Formula 1</p>
+                                <p style="color:#657786">@F1</p>
+                            </div>
+                            <button class="btn btn-primary follow-btn" type="submit" style="font-weight:bolder;">Follow</button>                           
+                        </div>
+                        <div class="content">
+                            <img src="../assets/images/user.png" width="50px" alt="">
+                            <div class="info">
+                                <p style="margin:0; font-weight:bold;">Mercedes-AMG  F1 Team</p>
+                                <p style="color:#657786">@MercedesAMGF1</p>
+                            </div>
+                            <button class="btn btn-primary follow-btn" type="submit" style="font-weight:bolder;">Follow</button>                           
                         </div>
                     </div>
                 </div>
@@ -99,10 +138,10 @@
         </div>
     </main>
     <footer>
-        <link rel="stylesheet" href="../assets/js/bootstrap.min.js"/>
-        <link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="../assets/css/style.css"/>
-        <link rel="stylesheet" href="../assets/css/all.min.css"/>
+        <link rel="stylesheet" href="/assets/js/bootstrap.min.js"/>
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/assets/css/style.css"/>
+        <link rel="stylesheet" href="/assets/css/all.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
