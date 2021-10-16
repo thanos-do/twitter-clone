@@ -30,6 +30,9 @@ body{
     background-color:rgba(15, 20 , 25 , 0.1);
     transition: all 0.2s ease;
 }
+.left-sidebar-content .hover-text:focus{
+    font-weight: bolder;
+}
 .btn.btn-primary{
     margin: 1.5rem ;
     font-size: 1.5rem;
@@ -38,7 +41,7 @@ body{
     background-color: rgb(29, 155, 240);
 }
 
-/* -------------------------> LEFT SIDEBAR <------------------------- */
+/* -------------------------> RIGHT SIDEBAR <------------------------- */
 .search{
     max-width: 85%;
     margin-top: 1rem;
@@ -62,10 +65,10 @@ body{
     background-color: rgb(245, 248, 250);
     max-width: 85%;
     border-radius: 20px;
-    padding: 25px;
 }
 .trends .heading{
-    margin-bottom: 2rem;
+    margin: 1.5rem;
+    padding-top: 1rem;
 }
 .trends .heading h5{
     font-weight: 900;
@@ -74,7 +77,9 @@ body{
     font-weight: 800;
 }
 .trends .content{
-    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 .trends .content p{
     margin: 0;
