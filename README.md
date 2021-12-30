@@ -1,4 +1,4 @@
-# Τwitter clone website
+# Τwitter clone
 
 Trying to make a simple clone for our lovely social platform Twitter while using basic HTML,CSS,JS markup. 
 
