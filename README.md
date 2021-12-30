@@ -11,7 +11,7 @@ I also used Bootstrap framework to practice my skills.
 
 ## Development
 
-If you want to commit changes to this repository you can open a PR with the below structure:
+If you want to commit changes to this repository you can open a PR in the <strong> dev branch </strong> with the below structure:
 
 - For additions, branch names are `new/description-of-addition`.
 - For fixes, `fix/description-of-fix`.
