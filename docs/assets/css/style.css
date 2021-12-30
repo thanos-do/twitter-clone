@@ -22,7 +22,6 @@ body{
 }
 .left-sidebar-content div{
     padding: 1rem;
-    max-width: 75%;
     border-radius: 30px;
     cursor:pointer; 
 }
@@ -43,7 +42,7 @@ body{
 
 /* -------------------------> RIGHT SIDEBAR <------------------------- */
 .search{
-    max-width: 85%;
+    max-width: 100%;
     margin-top: 1rem;
 }
 .search .form-control{
@@ -63,7 +62,7 @@ body{
 }
 .trends{
     background-color: rgb(245, 248, 250);
-    max-width: 85%;
+    max-width: 100%;
     border-radius: 20px;
 }
 .trends .heading{
@@ -89,7 +88,7 @@ body{
 }
 .follow{
     background-color: rgb(245, 248, 250);
-    max-width: 85%;
+    max-width: 100%;
     border-radius: 20px;
     padding: 25px;
     margin-top: 1rem;
@@ -148,9 +147,9 @@ body{
     transition: all 0.2s ease;
 }
 .main-feed .cta-icons .btn{
-    width: 15%;
+    width: 25%;
     font-size: 1rem;
     margin: 0;
-    margin-left: 50%;
+    margin-left: 75%;
 }
 /* -------------------------> FOOTER <------------------------- */
